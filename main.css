@@ -1,0 +1,475 @@
+@font-face {
+    font-family: "caviar";
+    src: url("fonts/Caviar_Dreams_Bold-webfont.eot");
+    src: local("Caviar Bold"), local("Caviar"),
+        url("fonts/Caviar_Dreams_Bold-webfont.ttf") format("truetype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+}
+.clear {
+    clear: both;
+}
+
+/*-------------------------------header---------------------*/
+
+#wrapper_top {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 395px;
+    margin: 0px auto;
+    background-image: url(images/banner.png);
+    position: center center;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+}
+
+#logo {
+    padding: 20px 0px 0px 425px;
+}
+
+h1 {
+    font-family: caviar;
+    font-size: 36px;
+    font-style: bold;
+    color: #ffffff;
+    text-align: center;
+    width: 960px;
+    padding: 55px 0px 0px 0px;
+    position: absolute;
+    z-index: 10;
+}
+
+h5 {
+    font-family: caviar;
+    font-size: 36px;
+    font-style: bold;
+    color: #7599ba;
+    text-align: center;
+    width: 960px;
+    padding: 58px 0px 0px 0px;
+    position: absolute;
+}
+
+#drop_design {
+    background-image: url(images/arrow_banner.png);
+    position: absolute;
+    left: 50%;
+    height: 345px;
+    width: 960px;
+    margin-left: -480px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------------header---------------------*/
+/*-------------------------------1st drop-------------------*/
+.slide {
+    margin: -5px auto 0px !important;
+}
+
+#drop_1 {
+    background-color: #96c699;
+    margin: -285px auto 0px auto;
+    width: 960px;
+    height: 280px;
+    z-index: 1;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    left: 50%;
+}
+
+#dia {
+    float: left;
+    margin: 55px 0px 0px 330px;
+}
+
+h2 {
+    font-family: caviar;
+    font-size: 25px;
+    font-style: bold;
+    color: #ffffff;
+    float: left;
+    margin: 50px 20px 0px 20px;
+    padding: 0px 20px;
+}
+
+#dia_2 {
+    float: left;
+    margin: 55px 0px 0px 0px;
+}
+
+#drop_1 p {
+    font-family: avenir;
+    font-style: book;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    line-height: 25px;
+    margin: 20px 200px 0px 200px;
+}
+/*-------------------------------1st drop-------------------*/
+/*-------------------------------bio------------------------*/
+
+#bio {
+    width: 960px;
+    height: 565px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    position: center center;
+    z-index: 2;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+}
+
+#photo {
+    margin: 60px 60px 0px 60px;
+    float: left;
+}
+
+#text_bio {
+    width: 275px;
+    height: 450px;
+    float: left;
+    align-content: center;
+    margin: 100px 80px 0px 80px;
+}
+
+h3 {
+    font-family: caviar;
+    font-size: 25px;
+    font-style: bold;
+    color: #5cad83;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+}
+
+#text_bio p {
+    font-family: avenir;
+    font-style: book;
+    font-size: 14px;
+    color: #8e9c9d;
+    text-align: center;
+    line-height: 25px;
+}
+
+#drop_name {
+    background-image: url(images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    float: left;
+    height: 60px;
+    width: 275px;
+}
+
+/*-------------------------------bio------------------------*/
+/*-------------------------------2nd drop------------------------*/
+.slide_2 {
+    margin: 0px auto 0px auto !important;
+}
+#drop_2 {
+    background-color: #96c699;
+    margin: -280px auto 0px auto;
+    width: 960px;
+    height: 280px;
+    z-index: 1;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    position: relative;
+}
+
+#dia_3 {
+    float: left;
+    margin: 55px 0px 0px 360px;
+}
+
+h2 {
+    font-family: caviar;
+    font-size: 25px;
+    font-style: bold;
+    color: #ffffff;
+    float: left;
+    margin: 50px 0px 0px 0px;
+}
+
+#dia_4 {
+    float: left;
+    margin: 55px 0px 0px 0px;
+}
+
+#drop_2 p {
+    font-family: avenir;
+    font-style: book;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    line-height: 25px;
+    margin: 20px 150px 0px 150px;
+}
+/*-------------------------------2nd drop------------------------*/
+/*-------------------------------work----------------------------*/
+
+#work {
+    height: 900px;
+    width: 960px;
+    margin: 60px auto;
+}
+
+#work p {
+    font-family: avenir;
+    font-style: book;
+    font-size: 14px;
+    color: #8e9c9d;
+    text-align: center;
+    line-height: 25px;
+}
+
+/*-------------------------------portfolio----------------------------*/
+
+#portfolio {
+    width: 730px;
+    height: 670px;
+    margin: 60px auto;
+}
+
+#portfolio a.turn {
+    width: 140px;
+    height: 140px;
+    margin: 45px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    transform-origin: 50% 50%;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+}
+
+#portfolio a.turn h4 {
+    opacity: 0;
+    top: 60px;
+    transform: rotate(-45deg);
+    transform-origin: 50% 50%;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+}
+
+h4 {
+    font-family: caviar;
+    font-size: 16px;
+    font-style: bold;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    top: 90px;
+    position: absolute;
+    opacity: 1;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+}
+
+#portfolio a {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 15px;
+    position: relative;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+}
+
+#row_1 {
+    height: 230px;
+    width: 730px;
+    clear: both;
+    overflow: hidden;
+}
+
+#row_2 {
+    height: 230px;
+    width: 730px;
+    clear: both;
+    overflow: hidden;
+}
+#row_3 {
+    height: 230px;
+    width: 730px;
+    clear: both;
+    overflow: hidden;
+}
+
+#row_4 {
+    height: 230px;
+    width: 730px;
+    clear: both;
+    overflow: hidden;
+}
+
+#project_1 {
+    background-image: url(images/driscolls_berries_hover.png);
+    background-size: cover;
+}
+
+#project_2 {
+    background-image: url(images/quick_draw_final.png);
+    background-size: cover;
+}
+
+#project_3 {
+    background-image: url(images/selfie_mirror_hover.png);
+    background-size: cover;
+}
+
+#project_4 {
+    background-image: url(images/EdisonCommercial.png);
+    background-size: cover;
+}
+
+#project_5 {
+    background-image: url(images/INsightIntro.png);
+    background-size: cover;
+}
+
+#project_6 {
+    background-image: url(images/kindred_coffee_hover.png);
+    background-size: cover;
+}
+
+#project_7 {
+    position: relative;
+    background-image: url(images/sundance_hover.png);
+    background-size: cover;
+}
+
+#project_8 {
+    background-image: url(images/leadership_conference_hover.png);
+    background-size: cover;
+}
+
+#project_9 {
+    background-image: url(images/responsive_wedding.png);
+    background-size: cover;
+}
+
+#project_10 {
+    background-image: url(images/LogoDesigns.png);
+    background-size: cover;
+}
+
+#project_11 {
+    background-image: url(images/graphite_hover.png);
+    background-size: cover;
+}
+
+#project_12 {
+    background-image: url(images/ObiAnimation.png);
+    background-size: cover;
+}
+
+#project_13 {
+    background-image: url(images/INsightCommercial.png);
+    background-size: cover;
+}
+
+#project_14 {
+    background-image: url(images/KometsDasher.png);
+    background-size: cover;
+}
+
+#project_15 {
+    background-image: url(images/DHReel.png);
+    background-size: cover;
+}
+.hidden {
+    display: none;
+}
+/*-------------------------------portfolio----------------------------*/
+/*-------------------------------connect----------------------------*/
+#connect {
+    width: 960px;
+    height: 495px;
+    margin: 200px auto 0px;
+}
+
+#portfolio img {
+    float: left;
+}
+
+#content {
+    width: 250px;
+    height: 185px;
+    margin: 100px 0px 180px 150px;
+    float: left;
+}
+
+#content p {
+    font-family: avenir;
+    font-style: book;
+    font-size: 14px;
+    color: #8e9c9d;
+    text-align: center;
+    line-height: 25px;
+}
+
+#content a p:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+#mail {
+    margin: 60px 30px 0px 0px;
+    float: left;
+}
+
+#insta {
+    margin: 60px 30px 0px 0px;
+    float: left;
+}
+
+#link {
+    margin: 60px 0px 0px 0px;
+    float: left;
+}
+
+#hand {
+    float: left;
+    height: 355px;
+    width: 530px;
+}
+/*-------------------------------connect----------------------------*/
+footer {
+    width: 960px;
+    height: 50px;
+    margin: 0px auto;
+    background-color: #96c699;
+}
+footer p {
+    font-family: avenir;
+    font-style: book;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    padding: 15px;
+}

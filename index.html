@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Minda Heindel</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css" type="text/css" media="all" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script>
+        $(document).ready(function () {
+            $(function () {
+                $("#portfolio a").hover(function () {
+                    $(this).toggleClass("turn");
+                });
+
+                $("#drop_design").click(function () {
+                    $("#drop_1").toggleClass("slide");
+                });
+
+                $("#drop_name").click(function () {
+                    $("#drop_2").toggleClass("slide_2");
+                });
+
+
+            });
+            $(window).scroll(function () {
+                var windowpos = $(window).scrollTop();
+
+                if (windowpos >= 395) {
+                    $("#drop_1").removeClass("slide");
+                } else if (windowpos >= 395) {
+                    $("#drop_2").removeClass("slide_2");
+                }
+            });
+
+
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".fancybox").fancybox();
+        });
+    </script>
+
+</head>
+
+<body>
+    <!---------------------------------header start--------------------------->
+
+    <div id="wrapper_top">
+        <header>
+
+        </header>
+    </div>
+
+    <!---------------------------------header end----------------------------->
+
+    <!---------------------------------bio start----------------------------->
+
+    <div id="bio">
+        <img src="images/bioimg.png" id="photo">
+        <div id="text_bio">
+            <h3> Hello, I'm Minda. </h3>
+            <p>I am a 2016 graduate from the School of Advertising Art. I have a great passion for inspiring
+                designs and effective marketing strategies that work cohesively. I believe that these two elements are
+                essential
+                for any company or campaign. I am also an aspiring motion designer. I believe that motion takes
+                storytelling
+                to the next level, and helps companies reach their consumers in a more personal way. My goal is to be
+                the best hybrid designer that I can be, and in turn use my talents in an impactful way.</p>
+        </div>
+    </div>
+    <!---------------------------------bio end------------------------------->
+    <!---------------------------------work start----------------------------->
+
+    <div id="work">
+        <h3> Work </h3>
+
+        <div id="portfolio">
+            <div id="row_1">
+                <a href="https://www.youtube.com/watch?v=o5vO2aqs59w&feature=youtu.be" target="_blank" id="project_5"
+                    class="fancybox">
+                    <h4>INsight Intro</h4>
+                </a>
+
+                <a href="images/ABCDasher.png" id="project_14" class="fancybox" rel="gallery14">
+                    <h4>Komets Dasher</h4>
+                </a>
+                <div class="hidden">
+                    <a href="images/NBCDasher.png" id="project_14" class="fancybox" rel="gallery14"></a>
+                </div>
+
+                <a href="https://www.youtube.com/watch?v=Aj4NazuUQ0g&feature=youtu.be" target="_blank" id="project_13"
+                    class="fancybox">
+                    <h4>INsight Commercial</h4>
+                </a>
+            </div>
+
+            <div id="row_2">
+                <a href="images/kindred_coffee_set.jpg" id="project_6" class="fancybox" rel="gallery6">
+                    <h4>Kindred Coffee</h4>
+                </a>
+                <div class="hidden">
+                    <a href="images/kindred_coffee_hands.jpg" id="project_6" class="fancybox" rel="gallery6"></a>
+                    <a href="images/kindred_coffee_cookies.jpg" id="project_6" class="fancybox" rel="gallery6"></a>
+                    <a href="images/kindred_coffee_togo.jpg" id="project_6" class="fancybox" rel="gallery6"></a>
+                    <a href="images/kindred_coffee_tents.jpg" id="project_6" class="fancybox" rel="gallery6"></a>
+                    <a href="images/kindred_coffee_cup.jpg" id="project_6" class="fancybox" rel="gallery6"></a>
+                </div>
+
+                <a href="https://www.youtube.com/watch?v=Jf-gBiU2C9Q&feature=youtu.be" target="_blank" id="project_4"
+                    class="fancybox">
+                    <h4>Edison Commercial</h4>
+                </a>
+
+                <a href="images/MindaWottLogo.png" id="project_10" class="fancybox" rel="gallery3">
+                    <h4>Logo Designs</h4>
+                </a>
+                <div class="hidden">
+                    <a href="images/HLSLogo.png" id="project_10" class="fancybox" rel="gallery3"></a>
+                    <a href="images/42Erwinlogo.png" id="project_10" class="fancybox" rel="gallery3"></a>
+                    <a href="images/NMKLogo.png" id="project_110" class="fancybox" rel="gallery3"></a>
+                    <a href="images/RefocusLogo.png" id="project_110" class="fancybox" rel="gallery3"></a>
+                </div>
+            </div>
+
+            <div id="row_3">
+                <a href="images/sundance_ticket.jpg" id="project_7" class="fancybox" rel="gallery7">
+                    <h4>Sundance Film Fest</h4>
+                </a>
+                <div class="hidden">
+                    <a href="images/sundance_set.jpg" id="project_7" class="fancybox" rel="gallery7"></a>
+                    <a href="images/sundance_poster_create.jpg" id="project_7" class="fancybox" rel="gallery7"></a>
+                    <a href="images/sundance_poster_innovate.jpg" id="project_7" class="fancybox" rel="gallery7"></a>
+                    <a href="images/sundance_poster_inspire.jpg" id="project_7" class="fancybox" rel="gallery7"></a>
+                </div>
+
+                <a href="images/lead_cover.jpg" id="project_8" class="fancybox" rel="gallery8">
+                    <h4>Leadership Conference</h4>
+                </a>
+                <div class="hidden">
+                    <a href="images/lead_close.jpg" id="project_8" class="fancybox" rel="gallery8"></a>
+                    <a href="images/lead_about.jpg" id="project_8" class="fancybox" rel="gallery8"></a>
+                    <a href="images/lead_speak.jpg" id="project_8" class="fancybox" rel="gallery8"></a>
+                    <a href="images/lead_mission.jpg" id="project_8" class="fancybox" rel="gallery8"></a>
+                    <a href="images/lead_map.jpg" id="project_8" class="fancybox" rel="gallery8"></a>
+                </div>
+
+                <a href="https://www.youtube.com/watch?v=w5O07G5G9P0&feature=youtu.be" target="_blank" id="project_15"
+                    class="fancybox">
+                    <h4>DH Reel</h4>
+                </a>
+            </div>
+
+            <div id="row_4">
+                <a href="images/berries_all.jpg" id="project_1" class="fancybox" rel="gallery1">
+                    <h4>Driscoll's Berries</h4>
+                </a>
+                <div class="hidden">
+                    <a href="images/berries_back.jpg" id="project_1" class="fancybox" rel="gallery1"></a>
+                    <a href="images/berries_top.jpg" id="project_1" class="fancybox" rel="gallery1"></a>
+                </div>
+
+                <a href="images/graphite_full.jpg" id="project_11" class="fancybox" rel="gallery11">
+                    <h4>Graphite Illustration</h4>
+                </a>
+                <div class="hidden">
+                    <a href="images/graphite_close.jpg" id="project_11" class="fancybox" rel="gallery11"></a>
+                    <a href="images/graphite_angle.jpg" id="project_11" class="fancybox" rel="gallery11"></a>
+                </div>
+
+                <a href="images/quick_draw_set.jpg" id="project_2" class="fancybox" rel="gallery2">
+                    <h4>Quick Draw!</h4>
+                </a>
+                <div class="hidden">
+                    <a href="images/quick_draw_pieces.jpg" id="project_2" class="fancybox" rel="gallery2"></a>
+                    <a href="images/quick_draw_billy.jpg" id="project_2" class="fancybox" rel="gallery2"></a>
+                    <a href="images/quick_draw_characters.jpg" id="project_2" class="fancybox" rel="gallery2"></a>
+                    <a href="images/quick_draw_cards.jpg" id="project_2" class="fancybox" rel="gallery2"></a>
+                    <a href="images/quick_draw_box.jpg" id="project_2" class="fancybox" rel="gallery2"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!---------------------------------work end------------------------------->
+    <!---------------------------------connect start-------------------------->
+
+    <div id="connect">
+        <div id="content">
+            <h3> Connect </h3>
+            <p> Let's work together! </p>
+            <a href="MindaHeindel_0219.pdf" target="_blank">
+                <p> Resume </p>
+            </a>
+            <a href="mailto:minda.wott@gmail.com" target="_blank"> <img src="images/mail.png" id="mail"></a>
+            <a href="https://www.instagram.com/minda_heindel" target="_blank"> <img src="images/insttagram.png" id="insta"></a>
+            <a href="https://www.linkedin.com/in/mindaheindel" target="_blank"> <img src="images/linkedin.png" id="link">
+            </a>
+        </div>
+        <img src="images/hand.gif" id="hand" />
+    </div>
+    </div>
+    <!---------------------------------connect end---------------------------->
+    <!---------------------------------footer start--------------------------->
+
+    <footer>
+        <p>© 2019 Minda Heindel. All rights reserved.</p>
+    </footer>
+    <!---------------------------------footer end----------------------------->
+</body>
+
+</html>

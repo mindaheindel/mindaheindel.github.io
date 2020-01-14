@@ -1,1 +1,2 @@
-# mindaheindel.github.io.b
+# mindaheindel.github.io
+My personal portfolio webpage repository.
